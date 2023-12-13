@@ -51,3 +51,23 @@ the dataset desicraption is   The data provided is from four different dates in 
 
 ### user input and model respones  
 #### 1-input 
+```
+give me the averge of open 
+
+```
+#### 2-respones 
+```
+To calculate the average of the "Open" column in the dataset, you can use the `numpy` library in Python. Here's the code:
+
+```python
+import numpy as np
+
+# Assuming your dataset is stored in a variable called "data"
+open_values = data['Open']
+average_open = np.mean(open_values)
+
+print("Average Open: ", average_open)
+```
+
+Make sure to replace "data" with the actual name of your dataset variable. This code will calculate the average of the "Open" column and print the result.
+```
